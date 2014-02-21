@@ -5,7 +5,7 @@ public class TheSecond{
 
 		System.out.print("Enter your name: ");
 		name = System.console().readLine();
-		System.out.println("length = " + name.length()); /* debug line */
+		System.out.println("length = " + name.length()); /* debug line! */
 
 		System.out.println("Hello " + name);
 	}
