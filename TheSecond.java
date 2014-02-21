@@ -1,12 +1,15 @@
 public class TheSecond{
 	public static void main(String[] args)
 	{
-		String name = "";
+		String first;
+		String last;
 
-		System.out.print("Enter your name: ");
-		name = System.console().readLine();
-		System.out.println("length = " + name.length()); /* debug line! */
+		System.out.print("Enter your first name: ");
+		first = System.console().readLine();
 
-		System.out.println("Hello " + name);
+		System.out.print("Now enter your last name: ");
+		last = System.console().readLine();
+		
+		System.out.println("Hello " + first + " " + last + "!");
 	}
 }
