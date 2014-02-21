@@ -7,6 +7,6 @@ public class TheSecond{
 		name = System.console().readLine();
 		System.out.println("length = " + name.length()); /* debug line! */
 
-		System.out.println("Hello " + name);
+		System.out.println("Hello, " + name);
 	}
 }
